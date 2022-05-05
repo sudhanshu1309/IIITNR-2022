@@ -1,10 +1,18 @@
 @import url("https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+
+.headline {
+  font-family: 'Great Vibes', cursive;
+  font-size: 4rem;
+}
+
+
 /*===========================
   COMMON css 
 ===========================*/
 :root {
   --font-family: "Inter", sans-serif;
-  --primary: #155bd5;
+  --primary: #161616;
   --primary-dark: #1c3ab6;
   --primary-light: #e2f1ff;
   --accent: #00d4d7;
