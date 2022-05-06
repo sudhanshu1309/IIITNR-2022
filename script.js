@@ -3,10 +3,10 @@ const hoursEl = document.getElementById("hours");
 const minsEl = document.getElementById("mins");
 const secondsEl = document.getElementById("seconds");
 
-const newYears = "Fri May 06 2022 19:00:00 GMT+0530";
+const surpriseAt = "Fri May 06 2022 19:00:00 GMT+0530";
 
 function countdown() {
-    const newYearsDate = new Date(newYears);
+    const newYearsDate = new Date(surpriseAt);
     const currentDate = new Date();
 
     const totalSeconds = (newYearsDate - currentDate) / 1000;
