@@ -2,6 +2,36 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
 
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;600&display=swap");
+
+* {
+    box-sizing: border-box;
+}
+
+
+.countdown-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.big-text {
+    font-weight: bold;
+    font-size: 6rem;
+    line-height: 1;
+    margin: 1rem 2rem;
+}
+
+.countdown-el {
+    text-align: center;
+}
+
+.countdown-el span {
+    font-size: 1.3rem;
+}
+
+
+
 .headline {
   font-family: 'Great Vibes', cursive;
   font-size: 4rem;
@@ -11,38 +41,6 @@
   .hid-sm {
     display: none;
   }  
-}
-
-
-.zig-zag {
-  border: none;
-  width: 50%;
-  margin: auto;
-  margin-top: 5%;
-  margin-bottom: 5%;
-  height: 40px;
-  background: linear-gradient(135deg, #ECEDDC 25%, transparent 25%) -20px 0, linear-gradient(225deg, #ECEDDC 25%, transparent 25%) -20px 0, linear-gradient(315deg, #ECEDDC 25%, transparent 25%), linear-gradient(45deg, #ECEDDC 25%, transparent 25%);
-  background-size: 40px 40px;
-  background-color: #ffffff;
-}
-
-
-#button-addon1 {
-  color: #ffc371;
-}
-
-i {
-  color: #ffc371;
-}
-
-.form-control::placeholder {
-  font-size: 0.95rem;
-  color: #aaa;
-  font-style: italic;
-}
-
-.form-control.shadow-0:focus {
-  box-shadow: none;
 }
 
 
