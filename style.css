@@ -41,6 +41,15 @@
   .hid-sm {
     display: none;
   }  
+  #interns{
+    display: none;
+  }
+}
+
+@media screen and (min-width: 499px) {
+  #interns-mob{
+    display: none;
+  }
 }
 
 
